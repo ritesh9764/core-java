@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 	public class MeanCalculater{
-	public static void main(String[] in){
+	public static void main(String[]in){
 
 	double a,b;
 
