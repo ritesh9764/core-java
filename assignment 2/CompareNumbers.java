@@ -18,8 +18,6 @@ import java.util.Scanner;
             System.out.println(num1 + " is GREATER than " + num2);
         } else {
             System.out.println(num1 + " is LESS than " + num2);
-        }
-
-        
+        }       
     }
 }
