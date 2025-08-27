@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class VowelOrConsonant {
+    public class VowelOrConsonant {
+        
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a lowercase character: ");
-        char ch = sc.next().charAt(0);  // Read first character
+        char ch = sc.next().charAt(0); 
 
-        // Check whether it's a lowercase alphabet
         if (ch >= 'a' && ch <= 'z') {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 System.out.println(ch + " is a Vowel.");
@@ -17,7 +18,5 @@ public class VowelOrConsonant {
         } else {
             System.out.println("Invalid input! Please enter a lowercase alphabet.");
         }
-
-        sc.close();
     }
 }
