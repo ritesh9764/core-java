@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class DivisibleBy5And7 {
+    public class DivisibleBy5And7 {
+        
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
@@ -13,6 +15,6 @@ public class DivisibleBy5And7 {
             System.out.println(num + " is NOT divisible by both 5 and 7.");
         }
 
-        sc.close();
+        
     }
 }
