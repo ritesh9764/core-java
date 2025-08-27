@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class EvenOddIf {
+     public class EvenOddIf {
+         
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
@@ -12,7 +14,5 @@ public class EvenOddIf {
         } else {
             System.out.println(num + " is odd.");
         }
-
-        sc.close();
     }
 }

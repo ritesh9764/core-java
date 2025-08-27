@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class MaxOfThree {
+    public class MaxOfThree {
+        
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
@@ -33,7 +35,5 @@ public class MaxOfThree {
         if (b > max4) max4 = b;
         if (c > max4) max4 = c;
         System.out.println("Maximum using Temp Variable: " + max4);
-
-        sc.close();
     }
 }
