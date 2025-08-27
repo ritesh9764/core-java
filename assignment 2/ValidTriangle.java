@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class ValidTriangle {
+    public class ValidTriangle {
+        
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first side: ");
@@ -19,6 +21,6 @@ public class ValidTriangle {
             System.out.println("The sides do NOT form a Valid Triangle.");
         }
 
-        sc.close();
+        
     }
 }
