@@ -15,6 +15,6 @@ public class PositiveNegativeCheck {
             System.out.println(num + " is zero.");
         }
 
-        scanner.close();
+        
     }
 }

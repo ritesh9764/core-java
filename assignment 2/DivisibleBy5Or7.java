@@ -15,6 +15,6 @@ public class DivisibleBy5Or7 {
             System.out.println(num + " is not divisible by 5 or 7.");
         }
 
-        sc.close();
+        
     }
 }

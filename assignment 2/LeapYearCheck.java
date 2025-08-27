@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class LeapYearCheck {
-    public static void main(String[] args) {
+	public class LeapYearCheck {
+
+    	public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a year: ");
@@ -14,6 +16,6 @@ public class LeapYearCheck {
             System.out.println(" is NOT a Leap Year."+year);
         }
 
-        sc.close();
+        
     }
 }

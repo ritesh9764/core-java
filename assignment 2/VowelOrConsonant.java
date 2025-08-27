@@ -18,6 +18,6 @@ public class VowelOrConsonant {
             System.out.println("Invalid input! Please enter a lowercase alphabet.");
         }
 
-        sc.close();
+        
     }
 }
