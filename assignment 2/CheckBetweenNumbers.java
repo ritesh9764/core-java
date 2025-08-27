@@ -16,11 +16,9 @@ import java.util.Scanner;
         int third = sc.nextInt();
 
         if ((first >= second && first <= third) || (first >= third && first <= second)) {
-            System.out.println(first + " is between " + second + " and " + third);
+            System.out.println( frist +" is between " + second + " and " + third);
         } else {
-            System.out.println(first + " is NOT between " + second + " and " + third);
+            System.out.println(frist + " is NOT between " + second + " and " + third);
         }
-
-        sc.close();
     }
 }
