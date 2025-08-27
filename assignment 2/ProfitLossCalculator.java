@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class ProfitLossCalculator {
+    public class ProfitLossCalculator {
+        
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the Cost Price: ");
@@ -19,7 +21,5 @@ public class ProfitLossCalculator {
         } else {
             System.out.println("No Profit No Loss");
         }
-
-        scanner.close();
     }
 }
