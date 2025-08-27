@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class PositiveNegativeCheck {
+    public class PositiveNegativeCheck {
+        
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
@@ -14,7 +16,5 @@ public class PositiveNegativeCheck {
         } else {
             System.out.println(num + " is zero.");
         }
-
-        scanner.close();
     }
 }
