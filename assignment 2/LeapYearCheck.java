@@ -13,8 +13,6 @@ import java.util.Scanner;
             System.out.println(" is a Leap Year."+year);
         } else {
             System.out.println(" is NOT a Leap Year."+year);
-        }
-
-        
+        }   
     }
 }
