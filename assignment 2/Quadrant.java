@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-	public class Quadrant{ 
+	public class Quadrant{
 
 	public static void main(String[] args){
 
