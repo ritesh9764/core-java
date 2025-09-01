@@ -4,8 +4,7 @@ public class MotionCalculater {
 
     public static void main(String[] args) {
 
-        double u, a, t;  // Declared inside main method, accessible throughout main
-
+        double u, a, t;  
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter initial velocity (u):");
@@ -23,6 +22,6 @@ public class MotionCalculater {
         System.out.println("Final velocity (v): " + v);
         System.out.println("Distance traveled (s): " + s);
 
-        sc.close();
+        
     }
 }
